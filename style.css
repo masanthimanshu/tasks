@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins);
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+body {
+  background-color: rgb(70, 70, 70);
+}
+
+input:focus {
+  outline: inherit;
+}
+
+.💪-3 {
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.pri-btn {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.25rem 1.25rem;
+  margin: 0 1.5rem;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pri-btn:hover {
+  background-color: rgb(50, 50, 50);
+  color: white;
+}
+
+/* Page Specific Changes */
+
+/* Header */
+header {
+  text-align: center;
+  background-color: rgb(50, 50, 50);
+  padding: 1rem 0;
+}
+
+header input {
+  font-size: 1rem;
+  padding: 0.25rem 1.25rem;
+  border: 0;
+  border-radius: 5rem;
+}
+
+/* Home Section */
+.home-sec {
+  color: white;
+  width: 80vw;
+  margin: auto;
+  padding: 3rem 0;
+}
+
+.home-sec .inner {
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.inner .date {
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
