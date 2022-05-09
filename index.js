@@ -65,12 +65,12 @@ function addTask() {
 
   if (arr.length == 0) return;
 
-  // var id = 0;
+  var id = 0;
 
   arr.forEach(() => {
     $("#home").append(
-      `<div class="inner"><div class="date">${this.date}</div><br><p>${this.task}</p></div>`
+      `<div class="inner"><div class="date">${arr[id].date}</div><br><p>${arr[id].task}</p></div>`
     );
-    // id++;
+    id++;
   });
 }
