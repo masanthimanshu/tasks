@@ -71,6 +71,6 @@ function addTask() {
     $("#home").append(
       `<div class="inner"><div class="date">${this.date}</div><br><p>${this.task}</p></div>`
     );
-    id++;
+    // id++;
   });
 }
